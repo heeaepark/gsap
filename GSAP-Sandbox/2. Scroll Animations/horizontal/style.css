@@ -1,0 +1,50 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container .section {
+  width: 100vw;
+  height: 100vh;
+}
+.s1, .s3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+}
+.s2 {
+  position: relative;
+}
+.slider-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+}
+.slider-wrap .slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: #252525;
+}
+.sd1 {
+  background-color: rgb(254, 212, 212);
+}
+.sd2 {
+  background-color: rgb(254, 231, 212);
+}
+.sd3 {
+  background-color: rgb(254, 253, 212);
+}
+.sd4 {
+  background-color: rgb(212, 246, 254);
+}
+.sd5 {
+  background-color: rgb(232, 212, 254);
+}
