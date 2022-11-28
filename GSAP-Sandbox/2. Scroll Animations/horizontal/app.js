@@ -16,7 +16,7 @@ function horizon() {
       start: "bottom bottom",
       pin: true,
       //trigger scrolled
-      end: "max top",
+      end: "+=300% top",
       scrub: 0.5,
     }
   });
